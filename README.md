@@ -1,2 +1,17 @@
+<img width="1086" alt="cb_thumbnail" src="https://github.com/morganwdavis/overread/assets/4434533/8247adfa-0fbb-43f7-a185-babd4a619ad0">
+
 # overread
-Simulates CVE-2023-4966 Citrix Bleed overread bug
+**Simulates CVE-2023-4966 Citrix Bleed overread bug**
+
+This is my final project for Harvard CS50 Cybersecurity 2023.  It's about a bug. A small bug – with huge, ongoing consequences. In this presentation, I’ll be sharing the “bleeding insights” from one developer’s tiny mistake. A mistake that continues to cause big problems for potentially millions of people.
+
+## Video
+(link to youtube video coming 12/31)
+
+Recorded December 4, 2023
+
+## Notes
+
+This demonstration program in C makes a call to `snfprintf()` in a way that forces it to truncate the output.  It then attempts to actually overread a memory buffer to show how the CVE-2023-4966 exploit works.
+
+Depending on your compiler and the size of the buffers used here, `malloc()` might introduce page-alignment padding which could break the demonstration. The constants I use are chosen so the output fits on one terminal display screen. Changing them can cause the results to differ and might not demonstrate the issue at all.
