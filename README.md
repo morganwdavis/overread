@@ -15,3 +15,6 @@ Recorded December 4, 2023
 This demonstration program in C makes a call to `snfprintf()` in a way that forces it to truncate the output.  It then attempts to actually overread a memory buffer to show how the CVE-2023-4966 exploit works.
 
 Depending on your compiler and the size of the buffers used here, `malloc()` might introduce page-alignment padding which could break the demonstration. The constants I use are chosen so the output fits on one terminal display screen. Changing them can cause the results to differ and might not demonstrate the issue at all.
+
+## Output
+<img width="1197" alt="Screenshot 2023-12-11 131451" src="https://github.com/morganwdavis/overread/assets/4434533/49c4e780-eb82-41af-8abc-20243026feb1">
