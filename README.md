@@ -6,7 +6,7 @@
 This is my final project for [Harvard CS50 Cybersecurity 2023](https://cs50.harvard.edu/cybersecurity/2023/).  It's about a bug. A small bug – with huge, ongoing consequences. In this presentation, I’ll be sharing the “bleeding insights” from one developer’s tiny mistake. A mistake that continues to cause big problems for potentially millions of people.
 
 ## Video
-(link to youtube video coming 12/31)
+[Citrix Bleed Video on YouTube](https://youtu.be/7rLOzA3lf6s)
 
 Recorded December 4, 2023
 
